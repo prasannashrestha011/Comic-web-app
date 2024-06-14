@@ -3,9 +3,16 @@ import React, { ChangeEvent, use, useEffect, useState } from 'react'
 import { GetDomElements } from '../dom/dom_options'
 
 const DarkModeBtn = () => {
-  const [theme,setTheme]=useState<string>(()=>{
-    return window.localStorage.getItem('data-theme') || "cup-cake"
-  })
+  const [theme, setTheme] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      return window.localStorage.getItem('data-theme') || "cup-cake";
+    } else {
+      return "cup-cake"; // Fallback for non-browser environments
+    }})
+  const [isClient, setIsClient] = useState<boolean>(false);
+  useEffect(() => {
+    setIsClient(true); // Set isClient to true when component mounts on client side
+  }, []);
   {/*toggles the mode of page*/}
   const handleToggle=(e:ChangeEvent<HTMLInputElement>)=>{
     if(e.target.checked){
@@ -34,8 +41,10 @@ const DarkModeBtn = () => {
   },[theme])
   useEffect(()=>{
     window.localStorage.setItem('data-theme',theme)
-    const localTheme=window.localStorage.getItem('data-theme') 
+    if(isClient){
+      const localTheme=window.localStorage.getItem('data-theme') 
     document.querySelector("html")?.setAttribute('data-theme',localTheme?localTheme:'cup-cake')
+    }
   
   },[theme])
   return (
