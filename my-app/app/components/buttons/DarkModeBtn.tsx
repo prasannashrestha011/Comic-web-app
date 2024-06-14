@@ -5,14 +5,15 @@ import { GetDomElements } from '../dom/dom_options'
 const DarkModeBtn = () => {
   const [theme, setTheme] = useState<string>(() => {
     if (typeof window !== 'undefined') {
+      
       return window.localStorage.getItem('data-theme') || "cup-cake";
     } else {
-      return "cup-cake"; // Fallback for non-browser environments
+      return "black"; // Fallback for non-browser environments
     }})
   const [isClient, setIsClient] = useState<boolean>(false);
   useEffect(() => {
     setIsClient(true); // Set isClient to true when component mounts on client side
-  }, []);
+  }, [isClient]);
   {/*toggles the mode of page*/}
   const handleToggle=(e:ChangeEvent<HTMLInputElement>)=>{
     if(e.target.checked){
