@@ -13,7 +13,7 @@ const DarkModeBtn = () => {
   const [isClient, setIsClient] = useState<boolean>(false);
   useEffect(() => {
     setIsClient(true); // Set isClient to true when component mounts on client side
-  }, [isClient]);
+  }, []);
   {/*toggles the mode of page*/}
   const handleToggle=(e:ChangeEvent<HTMLInputElement>)=>{
     if(e.target.checked){
