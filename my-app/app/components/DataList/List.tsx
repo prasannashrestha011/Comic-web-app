@@ -25,7 +25,7 @@ const ComicList:React.FC = () => {
   }
   return (
     <div>
-      <ul className='lg:w-full lg:grid grid-cols-3 gap-4 sm:flex flex-col lg:border lg:border-black  sm:border sm:border-red-900'>
+      <ul className='lg:w-full lg:grid grid-cols-3 gap-4 sm:flex flex-col   '>
          
          {ComicsContent.map((data,idx)=>{
              
@@ -34,7 +34,7 @@ const ComicList:React.FC = () => {
                   <div className={`card w-96 bg-base-100 shadow-xl card-theme `} onClick={()=>togglePreview(data.name,data.img,data.author,data.artist,data.context,data.publishedDate)} >
                      <div className="card-body ">
                     <div className=''>
-                    <p className="card-title w-full border border-black flex justify-center items-center">{data.name}</p>
+                    <p className="card-title w-full  flex justify-center items-center">{data.name}</p>
                     </div>
                       
                    </div>
