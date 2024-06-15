@@ -24,7 +24,7 @@ const ComicList:React.FC = () => {
       publisedDate:publisedDate})
   }
   return (
-    <div>
+    <div className='  flex flex-col justify-center items-center m-auto ' style={{width:'80%'}}>
       <ul className='lg:w-full lg:grid grid-cols-3 gap-4 sm:flex flex-col   '>
          
          {ComicsContent.map((data,idx)=>{
