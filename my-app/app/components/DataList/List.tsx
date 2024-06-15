@@ -31,7 +31,7 @@ const ComicList:React.FC = () => {
              
              return(
                  <li key={idx}>
-                  <div className={`card w-96 bg-base-100 shadow-xl card-theme `} onClick={()=>togglePreview(data.name,data.img,data.author,data.artist,data.context,data.publishedDate)} >
+                  <div className={`card w-96 bg-base-100 shadow-xl card-theme mb-3 `} onClick={()=>togglePreview(data.name,data.img,data.author,data.artist,data.context,data.publishedDate)} >
                      <div className="card-body ">
                     <div className=''>
                     <p className="card-title w-full  flex justify-center items-center">{data.name}</p>
