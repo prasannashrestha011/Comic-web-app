@@ -42,10 +42,10 @@ const DarkModeBtn = () => {
   },[theme])
   useEffect(()=>{
     window.localStorage.setItem('data-theme',theme)
-    if(isClient){
+  
       const localTheme=window.localStorage.getItem('data-theme') 
     document.querySelector("html")?.setAttribute('data-theme',localTheme?localTheme:'cup-cake')
-    }
+    
   
   },[theme])
   return (

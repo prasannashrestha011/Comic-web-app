@@ -20,7 +20,7 @@ const Preview: React.FC<PreviewProp> = ({name,img,author,artist,context,publised
     }
     return (
       <div onClick={handleClose} ref={modelRef} className='fixed top-0 left-0 right-0 bottom-0  backdrop-blur-md  bg-opacity-30 flex justify-center items-center'>
-            <div className=' border border-black' style={{width:'65%',height:'auto'}}> 
+            <div className=' border border-black sm:w-96' style={{width:'65%',height:'auto'}}> 
             <div className='flex flex-col justify-center items-center text-xl '>
              <span>{name}</span>
              <span><img src={img} className='w-56'/></span>
