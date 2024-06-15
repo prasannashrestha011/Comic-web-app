@@ -39,8 +39,8 @@ const ComicList:React.FC = () => {
                       
                    </div>
                        <figure>
-                        <div className='w-fit overflow-hidden'>
-                        <img src={data.img} alt="Shoes" className='lg:w-64 sm:w-32 md:w-10' />
+                        <div className='w-64 overflow-hidden '>
+                        <img src={data.img} alt="Shoes" className='lg:w-64 sm:w-2 md:w-10' />
                         </div>
                          </figure>
                  </div>
