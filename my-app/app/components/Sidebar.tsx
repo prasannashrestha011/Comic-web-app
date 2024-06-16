@@ -18,8 +18,8 @@ const Sidebar = () => {
       <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
       <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
         {/* Sidebar content here */}
-        <li><a href='/'>Home</a></li>
-        <li><a>Sidebar Item 2</a></li>
+        <li><a href='/' className='text-xl'>Home</a></li>
+     
       </ul>
     </div>
   </div>

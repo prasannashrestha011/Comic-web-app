@@ -11,6 +11,8 @@ interface CharacterProps{
 const ListOfCharacters = () => {
   const [show_character_card,setShowCharacterCard]=useState<boolean>(false)
   const [characterPreview,setCharacterPreview]=useState<CharacterProps | null>(null)
+ 
+
   const toggleCharacterCard=(name:string,details:string,img:string,type:string)=>{
     setCharacterPreview({name:name,
       details:details,
@@ -18,6 +20,7 @@ const ListOfCharacters = () => {
       type:type})
     setShowCharacterCard(!show_character_card)
   }
+  
   return (
     <div>
       <div className='m-auto  flex  text-2xl justify-center'>List of Characters</div>
@@ -27,10 +30,15 @@ const ListOfCharacters = () => {
             <li key={idx}>
                 <div className="card card-side bg-base-100 shadow-xl">
                 <figure>
-                    <img src={card.img} className="rounded-lg lg:w-52 sm:w-full" />
+               
+                    <img src={card.img} 
+                  
+                    className={`rounded-lg lg:w-52 sm:w-full  `}
+                    />
+                   
                     </figure>
                 <div className="card-body">
-                    <h2 className="card-title w-44">{card.name}</h2>
+                    <h2 className="card-title w-44  lg:text-2xl">{card.name}</h2>
                     <p></p>
                     <div className="card-actions justify-end">
                     <button className="btn btn-primary" 
