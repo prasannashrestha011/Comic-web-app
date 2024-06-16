@@ -10,7 +10,7 @@ return (
   <div className=" mt-2  flex justify-center lg:text-3xl text-3xl font-marvel font-semibold ">
         <Typewriter
           words={['Read Marvel Comics!']}
-          loop={1}
+          loop={2}
           cursor
           cursorStyle=''
           typeSpeed={100}
