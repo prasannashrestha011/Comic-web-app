@@ -7,7 +7,7 @@ import Link from 'next/link'
 const Navbar:React.FC = () => {
 
   return (
-    <div className='navbar  bg-base-100   shadow-xl rounded-xl main-navbar-btns sm:w-full' >
+    <div className='  navbar  bg-base-100   shadow-xl rounded-xl main-navbar-btns sm:w-full' >
   
        
         <div className={`  flex-1 gap-5 w-52  justify-center sm:w-fit `}>
