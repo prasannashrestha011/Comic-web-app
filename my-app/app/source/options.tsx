@@ -104,7 +104,50 @@ const ListOfCharactersCard=[
         type:'marvel'
     }
 ]
+{/* comics  */}
+const MarvelComicList=[
+    {
+        name:'Spider-Man',
+        thumbnail:'https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/spiderman.jpg',
+        publisheddate:'March 16, 2022',
+        intro:'What makes Spider-Man SPIDER-MAN? Find out here with an instant-classic tale that kicks off the most amazing Infinity Comic ever!',
+        imglist:[
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/0_1283.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/1_bed3.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/2_084d.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/3_3671.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/4_167c.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/5_e385.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/6_c6c0.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/7_3e93.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/9_cfc0.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/10_7d3e.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/11_5fc0.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/12_c39a.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/13_33cc.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/15_1a4d.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/16_6e43.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/17_3632.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/18_4d14.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/19_3d70.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/20_8873.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/21_4e40.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/22_d8f6.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/23_d6d3.jpg",
+"https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/25_52c3.jpg",
+        ]
+    },
+    {
+        name:'AVENGERS UNLIMITED INFINITY COMIC (2022)',
+        thumbnail:'https://raw.githubusercontent.com/prasannashrestha011/YoutubeClone/main/uploads/blackpanter.jpg',
+        publisheddate:'July 12, 2022',
+        intro:'"The Black Ledger," Part Two: Next in the crossfire of the Avengers’ mysterious foe? God of Thunder Thor and Black Panther, King of Wakanda! Godlike power and the resources of an entire nation may not be enough to halt an attack from the deadly Tri-Sentinel!',
+
+
+    }
+]
 export  {
     ComicsContent,
-    ListOfCharactersCard
+    ListOfCharactersCard,
+    MarvelComicList
 }
