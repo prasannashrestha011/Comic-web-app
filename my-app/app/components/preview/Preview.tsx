@@ -1,5 +1,5 @@
 'use client'
-import React, { ChangeEvent, useRef, useState } from 'react'
+import React, { ChangeEvent, useEffect, useRef, useState } from 'react'
 
 interface PreviewProp{
     name:string,
@@ -19,12 +19,21 @@ const Preview: React.FC<PreviewProp> = ({name,img,author,artist,context,publised
             setShowPreview(!showPreview)
         }
     }
+    useEffect(() => {
+      if (showPreview) {
+        document.body.style.overflow = 'hidden';
+      } 
+  
+      return () => {
+        document.body.style.overflow = 'auto';
+      };
+    }, [showPreview]);
     const handleImageLoading=()=>{
       setLoading(false)
     }
     return (
       <div onClick={handleClose} ref={modelRef} className='fixed top-0 left-0 right-0 bottom-0  backdrop-blur-md  bg-opacity-30 flex justify-center items-center'>
-            <div className=' border border-black  ' style={{width:'95%',height:'auto'}}> 
+            <div className='overflow-hidden rounded-lg' style={{width:'95%',height:'auto'}}> 
             <div className='bg-red-600 flex items-center justify-center h-14 lg:text-xl sm:text-xs'>{name}</div>
             <div className='flex flex-col justify-center items-center text-xl '>
             
@@ -42,7 +51,7 @@ const Preview: React.FC<PreviewProp> = ({name,img,author,artist,context,publised
               <span className='lg:text-xl sm:text-xs'>{context}</span>
               </div>
               
-            <div>Written by {author}</div>
+            <div className='text-slate-200 bg-blue-800'><strong>Written by {author}</strong></div>
             </div>
       </div>
     );

@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ComicsContent } from '../../source/options'
 import Preview from '../preview/Preview'
 interface PreviewProp{
@@ -23,6 +23,16 @@ const ComicList:React.FC = () => {
       context:context,
       publisedDate:publisedDate})
   }
+  useEffect(()=>{
+    if(previewdata){
+      document.body.style.overflow='hidden'
+    }else{
+      document.body.style.overflow='auto'
+    }
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  },[previewdata])
   return (
     <div className='  flex flex-col justify-center items-center m-auto ' >
       <ul className='lg:w-full lg:grid grid-cols-3 gap-4 sm:flex flex-col   '>
