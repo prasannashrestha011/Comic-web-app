@@ -1,7 +1,7 @@
 
 
 import Navbar from "./components/navbar";
-import dynamic from 'next/dynamic';
+
 
 
 
