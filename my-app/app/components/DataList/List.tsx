@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react'
 import { ComicsContent } from '../../source/options'
 import Preview from '../preview/Preview'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 interface PreviewProp{
   name:string,
   img:string,
@@ -41,10 +43,21 @@ const ComicList:React.FC = () => {
              
              return(
                  <li key={idx}>
-                  <div className={` card lg:w-96 md:w-80 sm:80  bg-base-100 shadow-xl card-theme mb-3 `} onClick={()=>togglePreview(data.name,data.img,data.author,data.artist,data.context,data.publishedDate)} >
+                  <div className={` card lg:w-96 md:w-80 sm:80  bg-base-100 shadow-xl card-theme mb-3 `}  >
                      <div className="card-body ">
-                    <div className=''>
-                    <p className="card-title w-full  flex justify-center items-center">{data.name}</p>
+                      {/* preview toggle btn*/}
+                     <div className=' flex justify-end'>
+                     <button
+                    className=' btn btn-square flex-none  text-xl text-slate-200 bg-red-800  flex justify-center items-center' 
+                    onClick={()=>togglePreview(data.name,data.img,data.author,data.artist,data.context,data.publishedDate)}>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-5 h-5 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                     </div>
+                      {/* card content */}
+                    <div className='flex flex-row justify-center items-center '>
+                    <p className="card-title w-full flex-1 h-12  flex justify-center items-center">{data.name}</p>
+                   
+                   
                     </div>
                       
                    </div>
