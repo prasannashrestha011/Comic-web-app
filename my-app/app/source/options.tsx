@@ -66,7 +66,45 @@ const ComicsContent=[
         publishedDate:'May 29, 2024​'
     }
 ]
-
+const ListOfCharactersCard=[
+    {
+        name:'Spider-Man',
+        details:'Peter Parker was bitten by a radioactive spider as a teenager, granting him spider-like powers. After the death of his Uncle Ben, Peter learned that "with great power, comes great responsibility." Swearing to always protect the innocent from harm, Peter Parker became Spider-Man.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8126579-amazing_spider-man_vol_5_54_stormbreakers_variant_textless.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Thor',
+        details:'Thor Odinson is the All-father of Asgard /God of Thunder, offspring of All-Father Odin & Elder-Goddess Gaea. Combining the powers of both realms makes him an elder-god hybrid and a being of no perceivable limits. Armed with his enchanted Uru hammer Mjolnir which helps him to channel his godly energies. The mightiest and the most beloved warrior in all of Asgard, a staunch ally for good and one of the most powerful beings in the multiverse/omniverse. Thor is also a founding member of the Avengers.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/11139/111399535/9140994-20231020_153307~3.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Iron Man',
+        details:'Tony Stark was the arrogant son of wealthy, weapon manufacturer Howard Stark. Tony cared only about himself, but he would have a change of heart after he was kidnapped by terrorists and gravely injured. Pressured to create a weapon of mass destruction, Stark instead created a suit of armor powerful enough for him to escape. Tony used his vast resources and intellect to make the world a better place as The Invincible Iron Man. Stark`s super hero identity led him to become a founding member of the Avengers.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8654427-ezgif-1-2f113089e4.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Hulk',
+        details:'After being bombarded with a massive dose of gamma radiation while saving a young man`s life during an experimental bomb testing, Dr. Robert Bruce Banner was transformed into the Incredible Hulk: a green behemoth who is the living personification of rage and pure physical strength.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/9174497-21.jpeg',
+        type:'marvel'
+    },
+    {
+        name:'Captain America',
+        details:'During World War II, Steve Rogers volunteered to receive the experimental Super-Soldier Serum. Enhanced to the pinnacle of human physical potential and armed with an unbreakable shield, he became Captain America. After a failed mission left him encased in ice for decades, he was found and revived by the Avengers, later joining their ranks and eventually becoming the team`s leader.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8459983-rco031_1650495781.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Deadphool',
+        details:'Wade Wilson is a former test subject of the Weapon X program, where he received his regenerative healing factor through the scientific experiments conducted upon him. A prominent enemy, ally and later, member of X-Force. He`s famous for breaking the Fourth Wall.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8926324-large-2680196.jpg',
+        type:'marvel'
+    }
+]
 export  {
-    ComicsContent
+    ComicsContent,
+    ListOfCharactersCard
 }
