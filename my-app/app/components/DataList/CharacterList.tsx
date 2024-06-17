@@ -31,7 +31,9 @@ const CharacterList = () => {
   return (
     <div>
        <ul className='flex flex-col gap-5'>
-        <p onClick={sortCharacterByAlphabet}><FontAwesomeIcon icon={faSortAlphaUp}/></p>
+        <p onClick={sortCharacterByAlphabet}>
+        <button className='btn btn-circle'>Sort</button>
+        </p>
         {(issorted?sortedcard:ListOfCharactersCard).map((card,idx)=>
         (
         
