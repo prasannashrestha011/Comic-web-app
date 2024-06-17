@@ -6,7 +6,7 @@ import { SideBarProvider } from "./components/context/SideBarContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Read Comics online for free",
+  title: "Prasanna's Comics",
   description: "Created by Prasanna Shrestha",
 };
 
