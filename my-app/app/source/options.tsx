@@ -98,11 +98,79 @@ const ListOfCharactersCard=[
         type:'marvel'
     },
     {
+        name:'Doctor Strange',
+        details:'Dr. Stephen Strange was once a gifted but egotistical surgeon who sought out the Ancient One to heal his hands after they were wounded in a car accident. Instead, the Ancient One trained him to become Master of the Mystic Arts and the Sorcerer Supreme of Earth.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8753901-ezgif-3-69b95d2d1b.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Black Panther',
+        details:"T'Challa is the Black Panther, king of Wakanda, one of the most technologically advanced nations on Earth. He is among the top intellects and martial artists of the world, a veteran Avenger, and a member of the Illuminati. Using his powers and abilities, he has pledged his fortune, powers, and life to the service of all mankind.",
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8251800-black_panther_vol_8_1_devil_dog_comics_and_jolzar_collectibles_exclusive_virgin_variant.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Hawkeye',
+        details:"Trained by criminals and inspired by heroes, Clint Barton has grown from a troubled youth into one of the greatest heroes on Earth. The world knows him best as Hawkeye: Earth's Mightiest Marksman. A member of the Avengers for many years, he has left the team on occasion because of team friction. But he always returns, ready to face any threat.",
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/11156/111564182/9384867-thunderbolts_vol_4_1_trading_card_variant_textless.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Scarlet Witch',
+        details:'The world knows Wanda Maximoff as the Scarlet Witch, with probability manipulation and reality-warping abilities. The twin sister of Quicksilver, mother to Wiccan and Speed, and ex-wife of the Vision; Wanda has taken on many roles throughout her life but will forever be known for causing the Decimation.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8926321-large-3540780.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Captain Marvel',
+        details:'A captain in the Kree militia, Mar-Vell rebelled against a racist tyrannical empire to defend Earth and in so doing became the "Protector of the Universe" known as Captain Marvel. Since his tragic death to cancer, Captain Marvel has inspired many superheroes and heroines and his legacy is still felt throughout the Marvel universe.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8268357-captain_marvel_vol_10_34_teaser_virgin_variant.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Black Widow',
+        details:"A former KGB agent, Natasha Alianovna Romanova, better known as Natasha Romanoff or Black Widow, was trained by the top-secret Soviet brainwashing and training program, the Red Room, to become the ultimate `Super-Spy`. She defected from the Soviet Union to the US to join S.H.I.E.L.D. Subsequently, Black Widow proceeded to become a member of the Avengers and has been on the team on numerous occasions. She's a woman with an enigmatic past which very few are acquainted with.",
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/11156/111564182/9081470-widow1.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Sam Wilson',
+        details:"A social worker turned hero, Sam Wilson's bleak outlook on life was wiped away the day he met Captain America. Using a winged costume and his remarkable combat prowess and avian telepathy, he became the Falcon - defender of Harlem, and eventually bearer of Captain America mantle.",
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8654420-ezgif-1-bbdbc0fed3.jpg',
+        type:'marvel'
+    },
+    {
         name:'Deadphool',
         details:'Wade Wilson is a former test subject of the Weapon X program, where he received his regenerative healing factor through the scientific experiments conducted upon him. A prominent enemy, ally and later, member of X-Force. He`s famous for breaking the Fourth Wall.',
         img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8926324-large-2680196.jpg',
         type:'marvel'
-    }
+    },
+    {
+        name:'Punisher',
+        details:'When U.S. Marine veteran Frank Castle`s family`s was murdered for witnessing a mob hit, the man vowed to avenge their deaths and became a one-man army in his personal war against the criminal underworld. With a distinct death`s head skull adorning his chest, Frank Castle became the vigilante known as the Punisher.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/11156/111564182/9383171-frankcastlefinal.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Silver Surfer',
+        details:'Norrin Radd of Zenn-La is the mighty herald of Galactus, the devourer of worlds. Gifted with the Power Cosmic and a trusty board that`s faster than lightspeed, which he can summon at will whenever needed, Norrin Radd travels to distant reaches throughout the universe as the Silver Surfer.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/8469814-ezgif-4-76f99dd072.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Cyclops',
+        details:'The first X-Man, Scott Summers possesses the mutant ability to fire powerful concussive blasts through his eyes that act as a portal to another dimension full of the force that makes up his optic blast. He is visually distinctive for the ruby quartz visor he wears to control his devastating power. A born leader, Cyclops succeeded his mentor Professor X to command the X-Men.',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/7740086-rco001_1609391996.jpg',
+        type:'marvel'
+    },
+    {
+        name:'Black Cat',
+        details:'Former cat burglar Felicia Hardy became a crime fighter when she became romantically attracted to and involved with Spider-Man. Felicia has the ability to instill "bad luck" around others - this comes in handy when fighting crime!',
+        img:'https://comicvine.gamespot.com/a/uploads/scale_small/12/124259/9366060-large-8667727.jpg',
+        type:'marvel'
+    },
+    
+
 ]
 {/* comics  */}
 const MarvelComicList=[
