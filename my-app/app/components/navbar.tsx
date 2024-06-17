@@ -13,9 +13,9 @@ const Navbar:React.FC = () => {
         <div className={`  flex-1 gap-5 w-52  justify-center sm:w-fit `}>
         
             
-            <button className='btn btn-ghost text-xl '><a href="/comics">Comics</a></button>
-            <a href='/characters'><button className='btn btn-ghost text-xl'>Characters</button></a>
-            <Link href="/about"><button className='btn btn-ghost text-xl '>About</button></Link>
+            <button className='btn btn-ghost lg:text-xl '><a href="/comics">Comics</a></button>
+            <a href='/characters'><button className='btn btn-ghost lg:text-xl'>Characters</button></a>
+            <Link href="/about"><button className='btn btn-ghost lg:text-xl '>About</button></Link>
         </div>
         <div className='flex-none'>
    
