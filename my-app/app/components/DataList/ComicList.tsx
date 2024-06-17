@@ -18,12 +18,12 @@ const ComicList = () => {
     })
   }
   return (
-    <div>
-       <ul className='lg:grid grid-cols-3 gap-4 sm:flex sm:flex-col'>
+    <div className=''>
+       <ul className='  w-fit   lg:grid grid-cols-3 gap-4 sm:flex sm:flex-col sm:justify-center '>
      {MarvelComicList.map((card,idx)=>{
         return(
             <li key={idx}>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
                         <img src={card.thumbnail} alt="Shoes" className="rounded-xl lg:w-80 sm:w-3/4 md:w-80" />
                     </figure>

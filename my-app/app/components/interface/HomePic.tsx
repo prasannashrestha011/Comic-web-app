@@ -7,7 +7,7 @@ const HomePic = () => {
       className='lg:w-full sm:w-96 m-auto rounded-xl'
     
       src='https://images7.alphacoders.com/387/387539.jpg'/>
-      <a href='/comics'><button className='btn btn-primary w-28'> Get started</button></a>
+      <a href='/marvel-comics'><button className='btn btn-primary w-28'> Get started</button></a>
     </div>
   )
 }
