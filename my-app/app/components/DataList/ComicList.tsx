@@ -25,11 +25,13 @@ const ComicList = () => {
             <li key={idx}>
                 <div className="card lg:w-96 bg-base-100 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <img src={card.thumbnail} alt="Shoes" className="rounded-xl lg:w-80 sm:w-3/4 md:w-80" />
+                        <img src={card.thumbnail} alt="image" className="rounded-xl lg:w-80 sm:w-3/4 md:w-80" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">{card.name}</h2>
+                        <p className='text-red-400'>{card.publisheddate}</p>
                         <p>{card.intro}</p>
+                       
                         <div className="card-actions">
                         <button className="btn btn-primary " onClick={()=>card.imglist?toggleComicPanel(card.name,card.imglist):console.log('no image list found"')}>Read Now</button>
                         </div>
