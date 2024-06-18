@@ -2,15 +2,19 @@
 import React from 'react'
 import SwiperComp from '../components/Swiper/SwiperComp'
 import TermsAndPolicyModal from '../modal/Terms&policy'
+import FileStructureModal from '../modal/FileStructure.Modal'
+import AuthorPage from '../Author/page'
 
 const AboutPage = () => {
   return (
     <div>
      
-     <p> 
+   
+      <nav className='flex flex-row justify-center items-center gap-1'>
       <TermsAndPolicyModal/>
-      
-      </p>
+     
+      </nav>
+   
     </div>
   )
 }
