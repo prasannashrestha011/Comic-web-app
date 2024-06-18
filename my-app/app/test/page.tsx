@@ -1,14 +1,12 @@
-
 import React from 'react'
 import SwiperComp from '../components/Swiper/SwiperComp'
 
-const AboutPage = () => {
+const page = () => {
   return (
     <div>
-      About page
-      
+  
     </div>
   )
 }
 
-export default AboutPage
+export default page
