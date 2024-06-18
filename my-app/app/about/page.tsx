@@ -7,8 +7,10 @@ const AboutPage = () => {
   return (
     <div>
      
-     <center> 
-      <TermsAndPolicyModal/></center>
+     <p> 
+      <TermsAndPolicyModal/>
+      
+      </p>
     </div>
   )
 }
