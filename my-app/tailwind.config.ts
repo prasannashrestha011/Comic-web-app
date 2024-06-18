@@ -1,3 +1,4 @@
+import {nextui} from '@nextui-org/theme';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -5,6 +6,7 @@ const config: Config = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/(card|modal|ripple).js"
   ],
   theme: {
     extend: {
@@ -36,7 +38,7 @@ const config: Config = {
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [
+   plugins: [
     require('daisyui'),
   ],
   daisyui :{
