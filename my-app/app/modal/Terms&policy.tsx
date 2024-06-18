@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <>
-      <Button onPress={onOpen} className="btn">Read Terms and Conditions</Button>
+      <Button onClick={onOpen} className="btn">Read Terms and Conditions</Button>
       <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent style={{backgroundColor:'#18181B'}} className="text-slate-200 rounded-xl overflow-y-auto">
           {(onClose) => (
