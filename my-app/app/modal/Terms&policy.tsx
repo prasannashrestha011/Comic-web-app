@@ -26,7 +26,7 @@ export default function App() {
 
 
 <h2>3. Privacy and Data Security</h2>
-<p>We prioritize the privacy and security of our users' information. Personal data collected during transactions is handled in accordance with our privacy policy.</p>
+
 
 
 
@@ -37,7 +37,7 @@ export default function App() {
 <p>Thank you for being a part of our community dedicated to Marvel comic enthusiasts! By adhering to these terms and policies, we can ensure a safe and enjoyable experience for all. Happy selling!</p>
               </ModalBody>
               <ModalFooter>
-                <Button className="btn btn-pr" onPress={onClose}>
+                <Button className="btn btn-pr" onClick={onClose}>
                   Close
                 </Button>
                
