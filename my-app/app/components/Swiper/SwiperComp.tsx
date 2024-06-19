@@ -10,7 +10,7 @@ import { Pagination } from 'swiper/modules';
 SwiperCore.use([Pagination]);
 const SwiperComp = () => {
   return (
-    <div className="m-auto flex justify-center items-center lg:w-full  text-black">
+    <div className="m-auto flex justify-center items-center lg:w-full text-black">
       <Swiper
      
        pagination={{ clickable: true }} // Enable pagination dots
@@ -18,7 +18,7 @@ const SwiperComp = () => {
          "--swiper-pagination-bullet-inactive-color": "#999999",
          "--swiper-pagination-bullet-inactive-opacity": "1",
          "--swiper-pagination-bullet-size": "9px", } as any}
-        className="  rounded-lg lg:w-9/12 sm:w-full h-96  "
+        className="  rounded-lg lg:w-9/12 sm:w-full  h-96  "
     
        
       >
